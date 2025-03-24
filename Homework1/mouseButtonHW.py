@@ -12,10 +12,6 @@ height = 600
 pygame.init()
 screen = pygame.display.set_mode((width, height), 0, 32)
 
-background_image_filename = './image/curve_pattern.png'
-
-# background = pygame.image.load(background_image_filename).convert()
-# width, height = background.get_size()
 screen = pygame.display.set_mode((width, height), 0, 32)
 pygame.display.set_caption("ImagePolylineMouseButton")
   
@@ -29,7 +25,6 @@ RED =   (255,   0,   0)
 pts = [] 
 knots = []
 count = 0
-#screen.blit(background, (0,0))
 screen.fill(WHITE)
 
 # https://kite.com/python/docs/pygame.Surface.blit
